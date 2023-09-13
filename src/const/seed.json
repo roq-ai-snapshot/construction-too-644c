@@ -1,0 +1,2152 @@
+[
+  {
+    "outlet": [
+      {
+        "id": "73ec9d2f-868f-4853-acd0-4a674dd1ea40",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-13T08:04:19.451Z",
+        "updated_at": "2023-09-13T09:36:26.272Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fc16705f-5212-49b4-a75e-c0b3a4a97597",
+        "name": "Outlet 2",
+        "location": "Mall",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:30 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-13T08:52:18.265Z",
+        "updated_at": "2023-09-12T16:29:13.501Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac683793-a2f8-4083-8ef0-6188f53fa16c",
+        "name": "Outlet 3",
+        "location": "Business Park",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-13T10:32:03.914Z",
+        "updated_at": "2023-09-13T02:33:09.653Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7541a761-fe02-4472-be8c-e514a09b6cb7",
+        "name": "Outlet 4",
+        "location": "Shopping Center",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T00:15:00.794Z",
+        "updated_at": "2023-09-13T02:05:56.089Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e6251362-b8b0-4979-84cc-e0ec365c76d2",
+        "name": "Outlet 5",
+        "location": "Industrial Area",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T22:49:35.495Z",
+        "updated_at": "2023-09-13T09:39:50.881Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "a13dbf70-30d2-4550-b0ae-ca05fe809cbc",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "ABC",
+        "model": "Model 1",
+        "availability_status": true,
+        "created_at": "2023-09-13T08:51:54.937Z",
+        "updated_at": "2023-09-13T09:01:33.011Z",
+        "outlet_id": "ac683793-a2f8-4083-8ef0-6188f53fa16c"
+      },
+      {
+        "id": "c59da50a-de37-4a36-a8cb-263dda5dfc61",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "XYZ",
+        "model": "Model 2",
+        "availability_status": false,
+        "created_at": "2023-09-12T13:36:14.184Z",
+        "updated_at": "2023-09-13T01:29:16.113Z",
+        "outlet_id": "73ec9d2f-868f-4853-acd0-4a674dd1ea40"
+      },
+      {
+        "id": "496a4ced-4731-4d79-a02d-c027b12ade39",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "123",
+        "model": "Model 3",
+        "availability_status": true,
+        "created_at": "2023-09-13T10:04:16.354Z",
+        "updated_at": "2023-09-12T15:18:24.495Z",
+        "outlet_id": "7541a761-fe02-4472-be8c-e514a09b6cb7"
+      },
+      {
+        "id": "6db92bb9-5249-4cd9-b388-05e398f7eaa2",
+        "name": "Pliers",
+        "type": "Construction Tool",
+        "brand": "Acme",
+        "model": "Model 4",
+        "availability_status": false,
+        "created_at": "2023-09-12T11:53:40.258Z",
+        "updated_at": "2023-09-12T20:34:21.234Z",
+        "outlet_id": "fc16705f-5212-49b4-a75e-c0b3a4a97597"
+      },
+      {
+        "id": "472d0c03-ea35-4a82-9ed6-85f3819a34d3",
+        "name": "Drill",
+        "type": "Automotive Tool",
+        "brand": "Global",
+        "model": "Model 5",
+        "availability_status": false,
+        "created_at": "2023-09-12T11:23:51.295Z",
+        "updated_at": "2023-09-12T14:37:29.736Z",
+        "outlet_id": "ac683793-a2f8-4083-8ef0-6188f53fa16c"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d4ac262a-0a87-42bb-be55-3bf7e35afefc",
+        "rental_start_date": "2023-09-13T11:07:08.250Z",
+        "rental_end_date": "2023-09-12T14:52:44.821Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-13T02:36:55.792Z",
+        "updated_at": "2023-09-13T00:34:40.322Z",
+        "tool_id": "c59da50a-de37-4a36-a8cb-263dda5dfc61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fadad5d4-1a11-4104-b9f2-4af1485b3ffa",
+        "rental_start_date": "2023-09-13T09:55:04.991Z",
+        "rental_end_date": "2023-09-13T00:10:36.964Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-13T06:39:04.733Z",
+        "updated_at": "2023-09-13T07:52:16.091Z",
+        "tool_id": "6db92bb9-5249-4cd9-b388-05e398f7eaa2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8c023b2-498e-4a79-a73e-65c042a6fcb1",
+        "rental_start_date": "2023-09-12T21:24:33.368Z",
+        "rental_end_date": "2023-09-12T16:28:30.272Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T23:14:07.751Z",
+        "updated_at": "2023-09-13T08:59:23.983Z",
+        "tool_id": "a13dbf70-30d2-4550-b0ae-ca05fe809cbc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "451a9d04-d29e-402b-bf0c-0f74c4f807bd",
+        "rental_start_date": "2023-09-13T10:05:22.404Z",
+        "rental_end_date": "2023-09-12T16:34:54.092Z",
+        "rental_status": "Out of Stock",
+        "created_at": "2023-09-12T20:26:14.120Z",
+        "updated_at": "2023-09-13T10:57:05.228Z",
+        "tool_id": "c59da50a-de37-4a36-a8cb-263dda5dfc61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2ab0cc2-06c5-4d43-a09e-c00ebf561d41",
+        "rental_start_date": "2023-09-12T17:25:40.187Z",
+        "rental_end_date": "2023-09-12T22:54:20.413Z",
+        "rental_status": "Under Maintenance",
+        "created_at": "2023-09-12T21:49:19.216Z",
+        "updated_at": "2023-09-12T15:58:50.026Z",
+        "tool_id": "a13dbf70-30d2-4550-b0ae-ca05fe809cbc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f0503b61-63cd-418f-9f5d-0cbf710e7395",
+        "email": "Allison16@hotmail.com",
+        "firstName": "Alexandre",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a194e85d-84fd-421c-82f0-d1b262c59137",
+        "email": "Mariah74@gmail.com",
+        "firstName": "Mariana",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e1965a8-a53e-43b4-8993-2467a7b8b936",
+        "email": "Christelle_Lang@yahoo.com",
+        "firstName": "Albina",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76705905",
+        "tenantId": null
+      },
+      {
+        "reference": "a5baefb0-c893-4776-adba-920faa3dabdc",
+        "email": "Alden_Stroman39@gmail.com",
+        "firstName": "Vivianne",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58477267",
+        "tenantId": null
+      },
+      {
+        "reference": "827c3652-d639-4f4d-a16b-673d041759b1",
+        "email": "Alexys_Schuppe@gmail.com",
+        "firstName": "Quentin",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/634.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "d535512f-da26-4122-8463-760490243a9e",
+        "name": "Outlet 1",
+        "location": "123 Main Street",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T23:56:50.255Z",
+        "updated_at": "2023-09-12T21:36:19.544Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a50e4dcf-ffd1-4aa1-91e3-160013574c3f",
+        "name": "Outlet 2",
+        "location": "456 Elm Avenue",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-13T08:55:22.269Z",
+        "updated_at": "2023-09-12T13:13:24.567Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97ea8543-7a8b-48cb-bb8c-fd05629322da",
+        "name": "Outlet 3",
+        "location": "789 Oak Lane",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "4:30 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-12T11:19:34.545Z",
+        "updated_at": "2023-09-13T07:58:10.826Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08aacfab-efa3-4ac6-884c-7a10e9517ab4",
+        "name": "Outlet 4",
+        "location": "321 Pine Road",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "5:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T03:18:44.306Z",
+        "updated_at": "2023-09-12T14:34:01.575Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b0eec1b6-e846-40ed-8488-1b2a6864269a",
+        "name": "Outlet 5",
+        "location": "654 Maple Drive",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T17:18:59.874Z",
+        "updated_at": "2023-09-13T00:26:41.731Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "084b2c68-4033-47b0-9621-6a55f04fbb10",
+        "name": "Tool 1",
+        "type": "Power tool",
+        "brand": "Brand A",
+        "model": "Model X",
+        "availability_status": false,
+        "created_at": "2023-09-13T02:01:03.064Z",
+        "updated_at": "2023-09-12T13:31:33.347Z",
+        "outlet_id": "a50e4dcf-ffd1-4aa1-91e3-160013574c3f"
+      },
+      {
+        "id": "68898de7-a42a-4218-8b05-e47e6a27534d",
+        "name": "Tool 2",
+        "type": "Hand tool",
+        "brand": "Brand B",
+        "model": "Model Y",
+        "availability_status": true,
+        "created_at": "2023-09-13T07:44:41.612Z",
+        "updated_at": "2023-09-13T05:52:06.934Z",
+        "outlet_id": "b0eec1b6-e846-40ed-8488-1b2a6864269a"
+      },
+      {
+        "id": "8136f462-b4be-40e1-b1cf-068b9b5f54b8",
+        "name": "Tool 3",
+        "type": "Garden tool",
+        "brand": "Brand C",
+        "model": "Model Z",
+        "availability_status": false,
+        "created_at": "2023-09-13T03:46:11.484Z",
+        "updated_at": "2023-09-12T23:24:30.624Z",
+        "outlet_id": "d535512f-da26-4122-8463-760490243a9e"
+      },
+      {
+        "id": "7e9ee11f-1cc2-4ebf-809f-e53cd387c141",
+        "name": "Tool 4",
+        "type": "Construction tool",
+        "brand": "Brand D",
+        "model": "Model A",
+        "availability_status": true,
+        "created_at": "2023-09-12T14:16:24.475Z",
+        "updated_at": "2023-09-13T00:06:56.000Z",
+        "outlet_id": "a50e4dcf-ffd1-4aa1-91e3-160013574c3f"
+      },
+      {
+        "id": "3a620875-6c0b-403f-b115-2e430df80066",
+        "name": "Tool 5",
+        "type": "Automotive tool",
+        "brand": "Brand E",
+        "model": "Model B",
+        "availability_status": true,
+        "created_at": "2023-09-12T23:30:58.091Z",
+        "updated_at": "2023-09-12T21:38:04.306Z",
+        "outlet_id": "08aacfab-efa3-4ac6-884c-7a10e9517ab4"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8fe52608-a245-4aaf-9c21-4925c6f71fb7",
+        "rental_start_date": "2023-09-12T21:57:25.479Z",
+        "rental_end_date": "2023-09-12T20:25:56.575Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-12T14:06:43.420Z",
+        "updated_at": "2023-09-13T07:20:29.133Z",
+        "tool_id": "7e9ee11f-1cc2-4ebf-809f-e53cd387c141",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45dbf427-fa01-4a97-a161-7961392ac2bd",
+        "rental_start_date": "2023-09-13T07:08:26.661Z",
+        "rental_end_date": "2023-09-13T06:57:34.567Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-12T15:00:46.709Z",
+        "updated_at": "2023-09-13T05:51:45.634Z",
+        "tool_id": "8136f462-b4be-40e1-b1cf-068b9b5f54b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf2ee74b-9cfe-4c38-8359-0acee5451a93",
+        "rental_start_date": "2023-09-13T01:00:21.420Z",
+        "rental_end_date": "2023-09-12T17:58:28.327Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T22:26:53.408Z",
+        "updated_at": "2023-09-12T23:59:07.311Z",
+        "tool_id": "7e9ee11f-1cc2-4ebf-809f-e53cd387c141",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aacd0c1b-7ace-4b8d-b54e-f3252eb9d5d3",
+        "rental_start_date": "2023-09-13T04:40:08.460Z",
+        "rental_end_date": "2023-09-13T07:11:35.196Z",
+        "rental_status": "Returned",
+        "created_at": "2023-09-12T16:04:32.144Z",
+        "updated_at": "2023-09-12T11:48:42.945Z",
+        "tool_id": "7e9ee11f-1cc2-4ebf-809f-e53cd387c141",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31cc2c1a-c5b7-43b7-96c0-ba66d43497be",
+        "rental_start_date": "2023-09-13T03:22:30.354Z",
+        "rental_end_date": "2023-09-13T08:04:45.883Z",
+        "rental_status": "Cancelled",
+        "created_at": "2023-09-13T04:58:22.563Z",
+        "updated_at": "2023-09-13T05:55:51.596Z",
+        "tool_id": "68898de7-a42a-4218-8b05-e47e6a27534d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cbafb36c-4fc2-4317-814e-7d0538c3f6b4",
+        "email": "Lilyan_Stroman@yahoo.com",
+        "firstName": "Liana",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/336.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9434601-4fa5-4787-937d-507721a4bf5d",
+        "email": "Heaven_Douglas50@hotmail.com",
+        "firstName": "Magnus",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/530.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "63fdef8c-82b4-45f0-9292-50f6f079b126",
+        "email": "Shanon_Wehner@hotmail.com",
+        "firstName": "Briana",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86896119",
+        "tenantId": null
+      },
+      {
+        "reference": "228c3522-fd06-4eee-9ad8-4924b4e96182",
+        "email": "Jayda57@yahoo.com",
+        "firstName": "Chaim",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93644394",
+        "tenantId": null
+      },
+      {
+        "reference": "60b02e9f-6155-4ce0-8159-9571dcd726eb",
+        "email": "Lambert.Bogan@gmail.com",
+        "firstName": "Harrison",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/518.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "835f8944-91e3-44c7-b585-aa2bdbdbc5a7",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-13T00:17:38.504Z",
+        "updated_at": "2023-09-12T22:41:43.973Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "24f9b136-91df-4c36-b6f9-9b838388ead6",
+        "name": "Outlet 2",
+        "location": "Midtown",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-12T19:54:24.772Z",
+        "updated_at": "2023-09-13T02:32:58.267Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "19aa2dff-a658-427c-9ee0-10680e9e562e",
+        "name": "Outlet 3",
+        "location": "Uptown",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:30 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-13T07:15:41.145Z",
+        "updated_at": "2023-09-13T06:10:11.637Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7ed1a03d-dfe0-4617-a75d-6994f283d9c9",
+        "name": "Outlet 4",
+        "location": "West End",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-12T21:30:40.302Z",
+        "updated_at": "2023-09-13T02:28:04.618Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "40ddd282-279d-4d09-b83f-f3f27c141c59",
+        "name": "Outlet 5",
+        "location": "East Side",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "7:30 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T20:34:44.733Z",
+        "updated_at": "2023-09-12T12:48:22.401Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "922d9c78-6c4f-4d64-8976-71d80d2b76bb",
+        "name": "Hammer",
+        "type": "Hand tool",
+        "brand": "Stanley",
+        "model": "Model 1",
+        "availability_status": false,
+        "created_at": "2023-09-12T16:08:55.638Z",
+        "updated_at": "2023-09-13T05:41:10.831Z",
+        "outlet_id": "40ddd282-279d-4d09-b83f-f3f27c141c59"
+      },
+      {
+        "id": "afe4ef30-100f-44a2-989e-266e5148439c",
+        "name": "Screwdriver",
+        "type": "Power tool",
+        "brand": "DeWalt",
+        "model": "Model 2",
+        "availability_status": true,
+        "created_at": "2023-09-13T06:50:18.971Z",
+        "updated_at": "2023-09-12T12:22:01.550Z",
+        "outlet_id": "19aa2dff-a658-427c-9ee0-10680e9e562e"
+      },
+      {
+        "id": "86a64dc6-7311-4fb4-a202-53a192076769",
+        "name": "Wrench",
+        "type": "Garden tool",
+        "brand": "Craftsman",
+        "model": "Model 3",
+        "availability_status": true,
+        "created_at": "2023-09-13T00:45:08.085Z",
+        "updated_at": "2023-09-12T21:13:17.877Z",
+        "outlet_id": "40ddd282-279d-4d09-b83f-f3f27c141c59"
+      },
+      {
+        "id": "efd55215-c329-4654-95c6-d81b3baef35e",
+        "name": "Pliers",
+        "type": "Construction tool",
+        "brand": "Makita",
+        "model": "Model 4",
+        "availability_status": false,
+        "created_at": "2023-09-13T03:37:54.071Z",
+        "updated_at": "2023-09-12T17:13:56.404Z",
+        "outlet_id": "40ddd282-279d-4d09-b83f-f3f27c141c59"
+      },
+      {
+        "id": "e7be5387-959f-4b61-887d-2e76dba31235",
+        "name": "Drill",
+        "type": "Automotive tool",
+        "brand": "Bosch",
+        "model": "Model 5",
+        "availability_status": true,
+        "created_at": "2023-09-12T15:01:25.211Z",
+        "updated_at": "2023-09-12T17:11:28.832Z",
+        "outlet_id": "40ddd282-279d-4d09-b83f-f3f27c141c59"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8d7e5321-e7eb-45c6-b1d7-9ae5e6a0595a",
+        "rental_start_date": "2023-09-12T19:42:55.400Z",
+        "rental_end_date": "2023-09-12T12:54:00.405Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-13T10:17:05.819Z",
+        "updated_at": "2023-09-12T12:52:30.501Z",
+        "tool_id": "922d9c78-6c4f-4d64-8976-71d80d2b76bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9eaebbe-5098-42b6-831d-272ac91b0882",
+        "rental_start_date": "2023-09-13T00:21:27.485Z",
+        "rental_end_date": "2023-09-12T22:10:05.619Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-12T19:43:43.820Z",
+        "updated_at": "2023-09-12T15:40:24.550Z",
+        "tool_id": "922d9c78-6c4f-4d64-8976-71d80d2b76bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3709bde5-28de-438d-a1fe-c2235268254f",
+        "rental_start_date": "2023-09-12T14:20:19.655Z",
+        "rental_end_date": "2023-09-13T09:25:31.884Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T18:30:18.204Z",
+        "updated_at": "2023-09-13T01:58:16.540Z",
+        "tool_id": "e7be5387-959f-4b61-887d-2e76dba31235",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0e53709-d6e5-4a19-a8e4-b9c0e56d8b41",
+        "rental_start_date": "2023-09-12T12:45:46.418Z",
+        "rental_end_date": "2023-09-12T17:54:39.435Z",
+        "rental_status": "Out of stock",
+        "created_at": "2023-09-12T18:30:43.051Z",
+        "updated_at": "2023-09-13T06:27:12.475Z",
+        "tool_id": "922d9c78-6c4f-4d64-8976-71d80d2b76bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0393a287-2f53-4417-addc-ac506a0cb5e7",
+        "rental_start_date": "2023-09-12T23:02:17.571Z",
+        "rental_end_date": "2023-09-12T13:16:16.153Z",
+        "rental_status": "Returned",
+        "created_at": "2023-09-12T12:46:40.696Z",
+        "updated_at": "2023-09-12T16:28:37.021Z",
+        "tool_id": "efd55215-c329-4654-95c6-d81b3baef35e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a10e226-2349-4037-934c-8e7ad3c4461d",
+        "email": "Vergie35@yahoo.com",
+        "firstName": "Juwan",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39995436",
+        "tenantId": null
+      },
+      {
+        "reference": "0327ca18-d1b3-454d-9ff5-ac9bedbe8912",
+        "email": "Duncan12@hotmail.com",
+        "firstName": "Cecelia",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90113871",
+        "tenantId": null
+      },
+      {
+        "reference": "f2ec4e2a-d065-4c14-b92a-c8163fa686fd",
+        "email": "Monserrate_Ziemann@hotmail.com",
+        "firstName": "Jon",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/451.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfceaba5-cda4-4754-8b3b-638c04395ac4",
+        "email": "Althea_Leannon22@yahoo.com",
+        "firstName": "Claire",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81630327",
+        "tenantId": null
+      },
+      {
+        "reference": "be0ee65e-fe5a-42fc-9af7-613c9ce534f9",
+        "email": "Virginie_Simonis@yahoo.com",
+        "firstName": "Mozelle",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86041307",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "bf076b64-a7f9-432f-aa72-41113aa4c746",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T12:23:11.216Z",
+        "updated_at": "2023-09-12T15:52:30.353Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3a21f3b2-9f18-46db-ad7c-48a3789336f8",
+        "name": "Outlet 2",
+        "location": "Midtown",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "5:30 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-13T08:12:11.220Z",
+        "updated_at": "2023-09-12T11:51:53.497Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "325cfb17-4b90-4715-b8ec-6e3151a5f358",
+        "name": "Outlet 3",
+        "location": "Uptown",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-13T09:00:20.940Z",
+        "updated_at": "2023-09-13T03:00:51.047Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "287615e2-151b-4b08-bb8d-40051978bc6f",
+        "name": "Outlet 4",
+        "location": "Suburb",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T06:50:50.822Z",
+        "updated_at": "2023-09-13T06:09:03.902Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "83e44de6-a2eb-403e-9a87-4cd1576bc479",
+        "name": "Outlet 5",
+        "location": "City Center",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T11:17:27.629Z",
+        "updated_at": "2023-09-13T01:22:14.012Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "cb4b08b6-428f-41ec-be27-6da5b11b9d40",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "12345",
+        "availability_status": false,
+        "created_at": "2023-09-12T23:41:45.246Z",
+        "updated_at": "2023-09-12T21:59:48.517Z",
+        "outlet_id": "83e44de6-a2eb-403e-9a87-4cd1576bc479"
+      },
+      {
+        "id": "fb776960-0925-4b7f-9979-22897bdff35e",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "67890",
+        "availability_status": false,
+        "created_at": "2023-09-13T10:40:03.114Z",
+        "updated_at": "2023-09-12T19:52:32.171Z",
+        "outlet_id": "bf076b64-a7f9-432f-aa72-41113aa4c746"
+      },
+      {
+        "id": "01127c65-b036-4fe9-a585-9364a449a871",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "ABCDE",
+        "availability_status": false,
+        "created_at": "2023-09-12T16:41:09.531Z",
+        "updated_at": "2023-09-12T21:37:25.301Z",
+        "outlet_id": "3a21f3b2-9f18-46db-ad7c-48a3789336f8"
+      },
+      {
+        "id": "7466895a-e35c-407f-a75e-a99fc142ac55",
+        "name": "Pliers",
+        "type": "Measuring Tool",
+        "brand": "Makita",
+        "model": "FGHIJ",
+        "availability_status": true,
+        "created_at": "2023-09-13T01:20:07.623Z",
+        "updated_at": "2023-09-13T08:46:08.725Z",
+        "outlet_id": "83e44de6-a2eb-403e-9a87-4cd1576bc479"
+      },
+      {
+        "id": "47a87641-a1be-42b3-b004-da4f86872c8e",
+        "name": "Drill",
+        "type": "Cutting Tool",
+        "brand": "Bosch",
+        "model": "KLMNO",
+        "availability_status": false,
+        "created_at": "2023-09-12T13:34:59.891Z",
+        "updated_at": "2023-09-13T05:15:37.240Z",
+        "outlet_id": "83e44de6-a2eb-403e-9a87-4cd1576bc479"
+      }
+    ],
+    "rental": [
+      {
+        "id": "306ba51c-b7cb-4c4d-b88c-916b56bef851",
+        "rental_start_date": "2023-09-12T15:42:11.627Z",
+        "rental_end_date": "2023-09-13T07:03:21.407Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-13T09:12:06.881Z",
+        "updated_at": "2023-09-12T21:44:36.122Z",
+        "tool_id": "cb4b08b6-428f-41ec-be27-6da5b11b9d40",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94556ac0-998b-4b00-8101-f2a075f13f6c",
+        "rental_start_date": "2023-09-13T05:03:11.703Z",
+        "rental_end_date": "2023-09-13T05:57:33.366Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-12T19:04:03.575Z",
+        "updated_at": "2023-09-13T03:27:50.342Z",
+        "tool_id": "fb776960-0925-4b7f-9979-22897bdff35e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b20a05-18d2-49a8-b08a-863670b11405",
+        "rental_start_date": "2023-09-12T12:23:53.343Z",
+        "rental_end_date": "2023-09-12T20:40:19.184Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T11:50:07.876Z",
+        "updated_at": "2023-09-12T11:31:53.744Z",
+        "tool_id": "01127c65-b036-4fe9-a585-9364a449a871",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14d906b3-d73f-4f0b-b482-f218bb989838",
+        "rental_start_date": "2023-09-12T19:45:29.955Z",
+        "rental_end_date": "2023-09-13T10:42:16.681Z",
+        "rental_status": "Returned",
+        "created_at": "2023-09-12T21:03:35.636Z",
+        "updated_at": "2023-09-12T17:04:27.100Z",
+        "tool_id": "7466895a-e35c-407f-a75e-a99fc142ac55",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ead4995-362f-439a-a3ee-93872f5036bc",
+        "rental_start_date": "2023-09-12T13:44:10.430Z",
+        "rental_end_date": "2023-09-12T11:25:17.400Z",
+        "rental_status": "Pending",
+        "created_at": "2023-09-12T20:54:50.931Z",
+        "updated_at": "2023-09-13T07:01:00.843Z",
+        "tool_id": "7466895a-e35c-407f-a75e-a99fc142ac55",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "425c5a61-8ff1-4b1e-b7b0-82f1c8adaca9",
+        "email": "Stephan.Hegmann60@yahoo.com",
+        "firstName": "Kurtis",
+        "lastName": "Wolff-Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/82.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b992664-1244-4ba5-992c-c4d0081e0201",
+        "email": "Arjun51@gmail.com",
+        "firstName": "Efren",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/263.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a85520a-ca5d-4a5f-a0fd-1634c2ac9e22",
+        "email": "Joana.Schuppe14@hotmail.com",
+        "firstName": "Timmy",
+        "lastName": "Reilly-Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/751.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f0b724e-3972-4fc3-87f9-a5dcc34d1140",
+        "email": "Jermey45@yahoo.com",
+        "firstName": "Alba",
+        "lastName": "Rowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75034284",
+        "tenantId": null
+      },
+      {
+        "reference": "ccff404b-da40-4a0a-8551-584ef28a8c2b",
+        "email": "Justyn3@hotmail.com",
+        "firstName": "Morton",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/673.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "f9354cb6-9bb8-46c4-8cc2-1976d77854c7",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-13T03:56:31.041Z",
+        "updated_at": "2023-09-13T06:01:00.192Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e49dbdbb-bd48-4c29-82d3-c892a8ee90dd",
+        "name": "Outlet 2",
+        "location": "Mall",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-12T14:58:20.172Z",
+        "updated_at": "2023-09-13T05:02:46.182Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8702e77a-4993-4e8e-b0fe-01d973746e63",
+        "name": "Outlet 3",
+        "location": "Business Park",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-13T10:24:37.177Z",
+        "updated_at": "2023-09-13T10:25:41.407Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "22ef1134-f5a0-47ec-a728-6fb241e40cd4",
+        "name": "Outlet 4",
+        "location": "Shopping Center",
+        "opening_hours": "11:00 AM",
+        "closing_hours": "8:00 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T07:25:41.901Z",
+        "updated_at": "2023-09-12T16:10:33.403Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4abb45e-057b-447e-9f12-523ab28fc85f",
+        "name": "Outlet 5",
+        "location": "Industrial Area",
+        "opening_hours": "12:00 PM",
+        "closing_hours": "9:00 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-13T07:30:01.435Z",
+        "updated_at": "2023-09-12T14:06:13.612Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "655966a9-d63f-4601-ac59-4644d1c84ae4",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "A1",
+        "availability_status": false,
+        "created_at": "2023-09-12T11:43:40.425Z",
+        "updated_at": "2023-09-12T14:56:14.066Z",
+        "outlet_id": "e49dbdbb-bd48-4c29-82d3-c892a8ee90dd"
+      },
+      {
+        "id": "ed876b5c-9fdd-48c7-9bc3-13a3713c9136",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "B2",
+        "availability_status": false,
+        "created_at": "2023-09-13T01:38:50.598Z",
+        "updated_at": "2023-09-12T22:25:18.513Z",
+        "outlet_id": "f9354cb6-9bb8-46c4-8cc2-1976d77854c7"
+      },
+      {
+        "id": "7c1fe1a1-d863-436a-a87f-5a2ba8479712",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "C3",
+        "availability_status": false,
+        "created_at": "2023-09-13T08:33:23.960Z",
+        "updated_at": "2023-09-13T03:52:45.502Z",
+        "outlet_id": "f9354cb6-9bb8-46c4-8cc2-1976d77854c7"
+      },
+      {
+        "id": "ca0ffe31-8b62-4eb8-b6ac-6772e5c614c0",
+        "name": "Pliers",
+        "type": "Measuring Tool",
+        "brand": "Makita",
+        "model": "D4",
+        "availability_status": true,
+        "created_at": "2023-09-12T12:55:44.655Z",
+        "updated_at": "2023-09-13T01:39:43.473Z",
+        "outlet_id": "f9354cb6-9bb8-46c4-8cc2-1976d77854c7"
+      },
+      {
+        "id": "b54f505f-0877-4334-b0c6-3445ab0e3cd1",
+        "name": "Drill",
+        "type": "Cutting Tool",
+        "brand": "Bosch",
+        "model": "E5",
+        "availability_status": true,
+        "created_at": "2023-09-13T08:24:49.026Z",
+        "updated_at": "2023-09-13T06:05:28.121Z",
+        "outlet_id": "e49dbdbb-bd48-4c29-82d3-c892a8ee90dd"
+      }
+    ],
+    "rental": [
+      {
+        "id": "81e52713-19cd-459b-ae3d-e462f6b1f740",
+        "rental_start_date": "2023-09-13T03:38:46.951Z",
+        "rental_end_date": "2023-09-13T04:11:18.126Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-13T08:01:01.327Z",
+        "updated_at": "2023-09-13T04:31:07.664Z",
+        "tool_id": "ca0ffe31-8b62-4eb8-b6ac-6772e5c614c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e27e3309-2ce8-4e47-804d-e355c3ff9ee5",
+        "rental_start_date": "2023-09-12T21:42:07.932Z",
+        "rental_end_date": "2023-09-13T09:59:48.835Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-12T19:08:30.077Z",
+        "updated_at": "2023-09-12T23:27:33.807Z",
+        "tool_id": "ed876b5c-9fdd-48c7-9bc3-13a3713c9136",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5625f292-b0d4-4047-b706-766519cc2e77",
+        "rental_start_date": "2023-09-12T13:33:31.094Z",
+        "rental_end_date": "2023-09-13T02:12:59.704Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-13T02:38:26.308Z",
+        "updated_at": "2023-09-13T10:54:51.745Z",
+        "tool_id": "7c1fe1a1-d863-436a-a87f-5a2ba8479712",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "990684b7-67da-4ec8-8870-23ccc4225549",
+        "rental_start_date": "2023-09-12T21:10:19.073Z",
+        "rental_end_date": "2023-09-12T21:23:01.768Z",
+        "rental_status": "Out of Service",
+        "created_at": "2023-09-12T12:47:15.710Z",
+        "updated_at": "2023-09-13T09:06:53.547Z",
+        "tool_id": "ed876b5c-9fdd-48c7-9bc3-13a3713c9136",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20611f8d-dcc7-4edf-9be3-ac501720175e",
+        "rental_start_date": "2023-09-13T06:58:29.523Z",
+        "rental_end_date": "2023-09-13T02:57:11.559Z",
+        "rental_status": "Returned",
+        "created_at": "2023-09-13T04:55:13.096Z",
+        "updated_at": "2023-09-12T17:59:44.350Z",
+        "tool_id": "655966a9-d63f-4601-ac59-4644d1c84ae4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b7c80f10-f606-465f-b5d0-d83504d87d38",
+        "email": "Elwin_Treutel@hotmail.com",
+        "firstName": "Declan",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66177050",
+        "tenantId": null
+      },
+      {
+        "reference": "5f67d8de-3d16-4cc1-a75a-678084d3817e",
+        "email": "Makayla.Mitchell81@gmail.com",
+        "firstName": "Eladio",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41452450",
+        "tenantId": null
+      },
+      {
+        "reference": "70e2cf69-1552-496a-a309-9391a0a06fae",
+        "email": "Quinton.Brekke@hotmail.com",
+        "firstName": "Valentina",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27678694",
+        "tenantId": null
+      },
+      {
+        "reference": "effd11df-6c39-4ae5-a4a1-ebe1886dc53c",
+        "email": "Aniyah.Waelchi10@yahoo.com",
+        "firstName": "Calista",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85545286",
+        "tenantId": null
+      },
+      {
+        "reference": "95336775-2a02-4e93-ab11-f77600504f8c",
+        "email": "Evans.Lynch@yahoo.com",
+        "firstName": "Alyson",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "2f06816a-27c9-4a24-9716-99716c0fc8b5",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T13:17:55.753Z",
+        "updated_at": "2023-09-12T23:08:06.034Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08d1f5cb-93b5-45db-88af-faf8d7eca2c5",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:30 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-12T16:58:24.637Z",
+        "updated_at": "2023-09-13T04:43:14.843Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "890d1e3e-da3a-4c01-8bf8-03848c94db29",
+        "name": "Outlet 3",
+        "location": "Business District",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-12T20:03:30.669Z",
+        "updated_at": "2023-09-13T05:58:30.593Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c3345ef7-8561-4773-94f8-d3ece615405f",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-12T12:02:21.944Z",
+        "updated_at": "2023-09-13T01:37:13.201Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1cb62da4-16f4-4fad-82ce-a078cdbe01dd",
+        "name": "Outlet 5",
+        "location": "Tourist Attraction",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-13T07:10:14.234Z",
+        "updated_at": "2023-09-13T09:52:25.348Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "3266df52-dd3a-45a7-9e5a-903c2c09889b",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "A1",
+        "availability_status": false,
+        "created_at": "2023-09-12T20:59:45.067Z",
+        "updated_at": "2023-09-12T16:27:08.316Z",
+        "outlet_id": "1cb62da4-16f4-4fad-82ce-a078cdbe01dd"
+      },
+      {
+        "id": "068e3fc8-4433-476e-8370-d4347aaf9b1b",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "B2",
+        "availability_status": true,
+        "created_at": "2023-09-13T00:32:24.557Z",
+        "updated_at": "2023-09-13T03:13:44.876Z",
+        "outlet_id": "c3345ef7-8561-4773-94f8-d3ece615405f"
+      },
+      {
+        "id": "ade92808-0ca9-4fe6-be90-77d0f05b9f72",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "C3",
+        "availability_status": true,
+        "created_at": "2023-09-12T19:47:31.264Z",
+        "updated_at": "2023-09-13T10:01:26.451Z",
+        "outlet_id": "2f06816a-27c9-4a24-9716-99716c0fc8b5"
+      },
+      {
+        "id": "5785df97-5a8e-45a6-a1c3-c0b9e3189e7f",
+        "name": "Pliers",
+        "type": "Measuring Tool",
+        "brand": "Makita",
+        "model": "D4",
+        "availability_status": true,
+        "created_at": "2023-09-13T08:33:55.009Z",
+        "updated_at": "2023-09-13T08:35:56.497Z",
+        "outlet_id": "c3345ef7-8561-4773-94f8-d3ece615405f"
+      },
+      {
+        "id": "5cfc2814-879e-431a-a5d5-e71749a156e6",
+        "name": "Drill",
+        "type": "Cutting Tool",
+        "brand": "Bosch",
+        "model": "E5",
+        "availability_status": false,
+        "created_at": "2023-09-12T18:39:57.949Z",
+        "updated_at": "2023-09-12T14:27:22.792Z",
+        "outlet_id": "08d1f5cb-93b5-45db-88af-faf8d7eca2c5"
+      }
+    ],
+    "rental": [
+      {
+        "id": "518e33c8-1c4e-4bc6-b836-6633b9305462",
+        "rental_start_date": "2023-09-12T19:27:12.595Z",
+        "rental_end_date": "2023-09-13T06:43:39.269Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-13T01:42:35.050Z",
+        "updated_at": "2023-09-13T00:20:22.782Z",
+        "tool_id": "5785df97-5a8e-45a6-a1c3-c0b9e3189e7f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7641b7f1-b6c9-466a-bd80-7aa3051f7771",
+        "rental_start_date": "2023-09-12T19:47:26.306Z",
+        "rental_end_date": "2023-09-12T16:52:55.677Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-13T00:49:04.551Z",
+        "updated_at": "2023-09-12T15:06:12.869Z",
+        "tool_id": "5cfc2814-879e-431a-a5d5-e71749a156e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3629e88-b68c-4765-89b4-2213e884a753",
+        "rental_start_date": "2023-09-12T22:47:08.616Z",
+        "rental_end_date": "2023-09-13T00:46:54.679Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-13T06:58:33.627Z",
+        "updated_at": "2023-09-13T01:59:38.788Z",
+        "tool_id": "068e3fc8-4433-476e-8370-d4347aaf9b1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d11c0fb9-58db-484d-9c22-07aefbf26713",
+        "rental_start_date": "2023-09-12T14:21:27.912Z",
+        "rental_end_date": "2023-09-12T11:56:58.580Z",
+        "rental_status": "Returned",
+        "created_at": "2023-09-13T09:50:19.195Z",
+        "updated_at": "2023-09-13T05:36:54.675Z",
+        "tool_id": "3266df52-dd3a-45a7-9e5a-903c2c09889b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fea9d0bc-4a55-4eb5-95d1-2f65375e3b5a",
+        "rental_start_date": "2023-09-12T18:26:22.621Z",
+        "rental_end_date": "2023-09-13T03:55:20.456Z",
+        "rental_status": "Damaged",
+        "created_at": "2023-09-12T22:10:09.533Z",
+        "updated_at": "2023-09-13T02:26:11.846Z",
+        "tool_id": "5785df97-5a8e-45a6-a1c3-c0b9e3189e7f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c360179e-54e4-49e9-aa3b-41437f30432c",
+        "email": "Josianne31@hotmail.com",
+        "firstName": "Wyman",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/533.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fee3e581-fce5-4b53-83cc-d710d36a3165",
+        "email": "Malvina_Crooks@yahoo.com",
+        "firstName": "Philip",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28418319",
+        "tenantId": null
+      },
+      {
+        "reference": "a5df8df3-7923-45a9-b4e5-0144a5ddba66",
+        "email": "Krista_Schaden83@gmail.com",
+        "firstName": "Gonzalo",
+        "lastName": "Erdman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/941.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ccf3e149-4d75-48a0-b741-831081aafd7b",
+        "email": "Dahlia6@gmail.com",
+        "firstName": "Gennaro",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92721080",
+        "tenantId": null
+      },
+      {
+        "reference": "c3596af6-0c01-4484-b649-ef426c643f37",
+        "email": "Ernesto.Konopelski13@yahoo.com",
+        "firstName": "Lew",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18377335",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "6261337d-376e-4016-806c-517bf47f9c08",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T16:49:49.956Z",
+        "updated_at": "2023-09-12T14:53:10.820Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6eb7efdc-5893-42dd-844b-bb2903f71d96",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:30 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-13T06:12:13.484Z",
+        "updated_at": "2023-09-12T17:04:09.260Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06ee4d48-90b5-455a-8b76-be8fd1502e4a",
+        "name": "Outlet 3",
+        "location": "Business Park",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-12T20:13:06.322Z",
+        "updated_at": "2023-09-13T05:24:27.030Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97b19a3a-5392-4455-980b-94ba0061f7f1",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-12T13:01:42.452Z",
+        "updated_at": "2023-09-12T11:43:52.193Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "674d1c9e-18ee-4581-83b1-f5e189acdd4d",
+        "name": "Outlet 5",
+        "location": "Tourist Attraction",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-13T05:13:17.181Z",
+        "updated_at": "2023-09-12T22:08:41.813Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "e9833c45-2e50-41b0-ae87-09dc3778e32c",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "12345",
+        "availability_status": true,
+        "created_at": "2023-09-12T12:01:31.560Z",
+        "updated_at": "2023-09-12T14:43:52.393Z",
+        "outlet_id": "674d1c9e-18ee-4581-83b1-f5e189acdd4d"
+      },
+      {
+        "id": "3212337a-6a26-44b1-a463-32749b510949",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "67890",
+        "availability_status": true,
+        "created_at": "2023-09-12T22:13:42.302Z",
+        "updated_at": "2023-09-13T03:44:41.178Z",
+        "outlet_id": "6261337d-376e-4016-806c-517bf47f9c08"
+      },
+      {
+        "id": "812f6ddf-3007-4f27-8f01-556e5c8af17f",
+        "name": "Wrench",
+        "type": "Measuring Tool",
+        "brand": "Craftsman",
+        "model": "ABCDE",
+        "availability_status": true,
+        "created_at": "2023-09-12T19:24:08.137Z",
+        "updated_at": "2023-09-13T07:00:27.341Z",
+        "outlet_id": "97b19a3a-5392-4455-980b-94ba0061f7f1"
+      },
+      {
+        "id": "24f48cca-5e45-4c76-836e-47a33be0f344",
+        "name": "Pliers",
+        "type": "Cutting Tool",
+        "brand": "Makita",
+        "model": "FGHIJ",
+        "availability_status": false,
+        "created_at": "2023-09-13T04:20:22.826Z",
+        "updated_at": "2023-09-12T15:30:36.289Z",
+        "outlet_id": "6261337d-376e-4016-806c-517bf47f9c08"
+      },
+      {
+        "id": "90847bd3-43be-4c75-93a1-2c540794a6c8",
+        "name": "Drill",
+        "type": "Fastening Tool",
+        "brand": "Bosch",
+        "model": "KLMNO",
+        "availability_status": true,
+        "created_at": "2023-09-13T08:09:41.346Z",
+        "updated_at": "2023-09-12T11:31:03.018Z",
+        "outlet_id": "6eb7efdc-5893-42dd-844b-bb2903f71d96"
+      }
+    ],
+    "rental": [
+      {
+        "id": "2d0f19f4-4bb0-41a6-92d7-0f3403c31519",
+        "rental_start_date": "2023-09-13T08:02:45.412Z",
+        "rental_end_date": "2023-09-13T00:26:49.348Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-12T21:57:17.547Z",
+        "updated_at": "2023-09-12T12:06:26.743Z",
+        "tool_id": "24f48cca-5e45-4c76-836e-47a33be0f344",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8537a6ad-30d2-4eb5-a34f-c77f6d7d2e91",
+        "rental_start_date": "2023-09-12T11:26:11.036Z",
+        "rental_end_date": "2023-09-13T00:27:16.446Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-13T03:11:55.282Z",
+        "updated_at": "2023-09-13T06:34:20.651Z",
+        "tool_id": "90847bd3-43be-4c75-93a1-2c540794a6c8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec101776-9878-413d-8d01-96ff6c552dfe",
+        "rental_start_date": "2023-09-12T22:00:05.918Z",
+        "rental_end_date": "2023-09-12T13:35:26.543Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T23:43:35.277Z",
+        "updated_at": "2023-09-12T19:39:29.581Z",
+        "tool_id": "3212337a-6a26-44b1-a463-32749b510949",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b23e300-c5e9-47aa-b5c2-bfe94efbbd56",
+        "rental_start_date": "2023-09-12T19:22:17.911Z",
+        "rental_end_date": "2023-09-12T22:31:22.233Z",
+        "rental_status": "Out of Service",
+        "created_at": "2023-09-12T20:06:16.631Z",
+        "updated_at": "2023-09-12T23:29:48.944Z",
+        "tool_id": "e9833c45-2e50-41b0-ae87-09dc3778e32c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7755a27d-5876-41da-8fb4-6cb5eba43e78",
+        "rental_start_date": "2023-09-13T08:58:25.837Z",
+        "rental_end_date": "2023-09-12T22:31:33.164Z",
+        "rental_status": "Pending",
+        "created_at": "2023-09-13T06:59:19.593Z",
+        "updated_at": "2023-09-12T19:55:21.096Z",
+        "tool_id": "812f6ddf-3007-4f27-8f01-556e5c8af17f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0107e13f-1045-4413-ad9c-7b0a3f4a5621",
+        "email": "Chasity57@gmail.com",
+        "firstName": "Giovani",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/653.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2e0d9ab3-656e-4858-85da-d33d144b9dd6",
+        "email": "General.Borer22@yahoo.com",
+        "firstName": "Alene",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/16.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e0e09be8-54d2-4aad-8249-eae4f24db2b2",
+        "email": "Hadley54@yahoo.com",
+        "firstName": "Laverna",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88889296",
+        "tenantId": null
+      },
+      {
+        "reference": "b55a49aa-4309-4f14-a804-a9e1ba37b93e",
+        "email": "Frederique91@hotmail.com",
+        "firstName": "Elyssa",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56651753",
+        "tenantId": null
+      },
+      {
+        "reference": "981cbf81-b75f-49b6-85cb-aadda5f84a25",
+        "email": "Reyna_Maggio96@hotmail.com",
+        "firstName": "Ivy",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/545.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "60d76355-228c-47b3-9640-9584beb05953",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "5:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T18:37:48.981Z",
+        "updated_at": "2023-09-13T07:37:09.694Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e35ce12a-e00c-4751-81ec-057a88b441c0",
+        "name": "Outlet 2",
+        "location": "Midtown",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-12T15:56:13.680Z",
+        "updated_at": "2023-09-12T17:04:11.430Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "67807e9b-1e41-49c7-9365-f3170a5a1c97",
+        "name": "Outlet 3",
+        "location": "Uptown",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "4:30 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-12T21:07:23.524Z",
+        "updated_at": "2023-09-12T17:47:42.921Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a6e011e7-63e3-4536-a375-f2c234b5e09a",
+        "name": "Outlet 4",
+        "location": "Suburb",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "5:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T05:35:24.257Z",
+        "updated_at": "2023-09-12T12:54:05.012Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "18bc747f-7ac0-4e68-83a3-916541fbba78",
+        "name": "Outlet 5",
+        "location": "City Center",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T20:09:32.058Z",
+        "updated_at": "2023-09-12T17:53:47.606Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "f34f65ba-ed34-4be7-a88d-c441a3e7bd84",
+        "name": "Tool 1",
+        "type": "Power tool",
+        "brand": "Brand A",
+        "model": "Model X",
+        "availability_status": true,
+        "created_at": "2023-09-12T16:38:13.798Z",
+        "updated_at": "2023-09-13T06:55:40.385Z",
+        "outlet_id": "e35ce12a-e00c-4751-81ec-057a88b441c0"
+      },
+      {
+        "id": "2f1e95b6-01a6-4105-96db-b6faa2b4acea",
+        "name": "Tool 2",
+        "type": "Hand tool",
+        "brand": "Brand B",
+        "model": "Model Y",
+        "availability_status": true,
+        "created_at": "2023-09-12T21:18:50.188Z",
+        "updated_at": "2023-09-12T13:38:48.931Z",
+        "outlet_id": "a6e011e7-63e3-4536-a375-f2c234b5e09a"
+      },
+      {
+        "id": "da341bd9-7d67-43eb-a3c1-e1575be146be",
+        "name": "Tool 3",
+        "type": "Garden tool",
+        "brand": "Brand C",
+        "model": "Model Z",
+        "availability_status": true,
+        "created_at": "2023-09-12T16:16:50.294Z",
+        "updated_at": "2023-09-12T11:40:49.434Z",
+        "outlet_id": "18bc747f-7ac0-4e68-83a3-916541fbba78"
+      },
+      {
+        "id": "5a6f13ba-5595-463e-bc72-5c6ec8a2206a",
+        "name": "Tool 4",
+        "type": "Construction tool",
+        "brand": "Brand D",
+        "model": "Model W",
+        "availability_status": true,
+        "created_at": "2023-09-12T12:53:11.975Z",
+        "updated_at": "2023-09-13T04:13:56.518Z",
+        "outlet_id": "67807e9b-1e41-49c7-9365-f3170a5a1c97"
+      },
+      {
+        "id": "e89ecd5f-9d8d-4d4f-aaed-f115735f9d5d",
+        "name": "Tool 5",
+        "type": "Automotive tool",
+        "brand": "Brand E",
+        "model": "Model V",
+        "availability_status": false,
+        "created_at": "2023-09-13T01:39:40.840Z",
+        "updated_at": "2023-09-12T15:48:45.095Z",
+        "outlet_id": "e35ce12a-e00c-4751-81ec-057a88b441c0"
+      }
+    ],
+    "rental": [
+      {
+        "id": "25201e49-441e-4722-9b4c-37aa5caf29fc",
+        "rental_start_date": "2023-09-13T03:04:14.360Z",
+        "rental_end_date": "2023-09-12T21:02:44.545Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-12T16:43:11.032Z",
+        "updated_at": "2023-09-12T15:44:46.241Z",
+        "tool_id": "2f1e95b6-01a6-4105-96db-b6faa2b4acea",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "698128dd-f3b2-4c66-b5c4-566435791fe4",
+        "rental_start_date": "2023-09-13T04:42:16.702Z",
+        "rental_end_date": "2023-09-13T08:14:15.138Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-13T03:10:21.550Z",
+        "updated_at": "2023-09-12T18:36:16.214Z",
+        "tool_id": "f34f65ba-ed34-4be7-a88d-c441a3e7bd84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4edd433-b5a6-4570-957c-7b7af8a9f650",
+        "rental_start_date": "2023-09-13T07:39:48.914Z",
+        "rental_end_date": "2023-09-12T22:45:22.642Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T14:10:31.937Z",
+        "updated_at": "2023-09-13T04:11:00.687Z",
+        "tool_id": "5a6f13ba-5595-463e-bc72-5c6ec8a2206a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c5bcaae-0d02-4484-861d-f88345b657f2",
+        "rental_start_date": "2023-09-12T13:54:16.241Z",
+        "rental_end_date": "2023-09-13T02:06:44.979Z",
+        "rental_status": "Out of stock",
+        "created_at": "2023-09-13T09:47:06.003Z",
+        "updated_at": "2023-09-12T15:52:14.899Z",
+        "tool_id": "f34f65ba-ed34-4be7-a88d-c441a3e7bd84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ebbd79e-486e-4fd6-8f13-f358b472a8fd",
+        "rental_start_date": "2023-09-12T23:14:51.589Z",
+        "rental_end_date": "2023-09-13T00:31:29.737Z",
+        "rental_status": "Under maintenance",
+        "created_at": "2023-09-12T19:22:10.235Z",
+        "updated_at": "2023-09-12T11:45:26.445Z",
+        "tool_id": "da341bd9-7d67-43eb-a3c1-e1575be146be",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "99f081f1-4b3f-42d7-a2f4-cb643c0d38d5",
+        "email": "Jana_OConnell@yahoo.com",
+        "firstName": "Austin",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27373172",
+        "tenantId": null
+      },
+      {
+        "reference": "d8252403-c073-4a6c-bea8-001d166d9f17",
+        "email": "Alex76@yahoo.com",
+        "firstName": "Bradley",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46035392",
+        "tenantId": null
+      },
+      {
+        "reference": "2438a95f-00ee-40a1-bc74-b1693224816c",
+        "email": "Garett.Beahan29@hotmail.com",
+        "firstName": "Braulio",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/155.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4aec2270-6004-4c8d-989c-9882e0d249b3",
+        "email": "Kiarra_Glover@hotmail.com",
+        "firstName": "Christop",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/771.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af34f31d-7906-43c6-9ed2-6dc8f2ca80b2",
+        "email": "Darius13@hotmail.com",
+        "firstName": "Brooke",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77320723",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "0d1ef001-25ae-45c5-8c32-a2d289bf6fa0",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T15:08:52.327Z",
+        "updated_at": "2023-09-12T20:22:41.861Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5aa0c6f9-2b41-4fac-a674-1def1f7a96c5",
+        "name": "Outlet 2",
+        "location": "Suburb",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:00 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-13T03:19:02.295Z",
+        "updated_at": "2023-09-13T08:58:33.438Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd40479b-71d7-43ae-8e21-b556029d2b88",
+        "name": "Outlet 3",
+        "location": "Shopping Mall",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:30 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-12T18:05:24.978Z",
+        "updated_at": "2023-09-13T07:38:30.838Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "48b371f6-cda6-428d-aaf7-72cf1f1b70e0",
+        "name": "Outlet 4",
+        "location": "Business District",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T09:21:12.993Z",
+        "updated_at": "2023-09-12T22:05:28.023Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "15fbd3ce-270e-454c-93dd-2c8a25a06e2d",
+        "name": "Outlet 5",
+        "location": "Tourist Area",
+        "opening_hours": "8:00 AM",
+        "closing_hours": "7:30 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T23:44:38.900Z",
+        "updated_at": "2023-09-12T14:48:23.400Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "9cbfd0b6-1dbc-4f19-a1cf-e3cc85cd48b1",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "Model 1",
+        "availability_status": false,
+        "created_at": "2023-09-12T13:47:21.438Z",
+        "updated_at": "2023-09-12T21:44:02.245Z",
+        "outlet_id": "48b371f6-cda6-428d-aaf7-72cf1f1b70e0"
+      },
+      {
+        "id": "52e1f21f-700d-4515-a223-0b476c8def4f",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "Model 2",
+        "availability_status": true,
+        "created_at": "2023-09-12T14:27:19.896Z",
+        "updated_at": "2023-09-12T14:48:03.610Z",
+        "outlet_id": "0d1ef001-25ae-45c5-8c32-a2d289bf6fa0"
+      },
+      {
+        "id": "4f11a706-111e-47a7-a1af-b3f67b4f25e1",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "Model 3",
+        "availability_status": false,
+        "created_at": "2023-09-12T18:22:55.193Z",
+        "updated_at": "2023-09-12T21:46:32.402Z",
+        "outlet_id": "5aa0c6f9-2b41-4fac-a674-1def1f7a96c5"
+      },
+      {
+        "id": "3f97ddb2-b5cb-4be0-91b5-377c2ac22bdd",
+        "name": "Pliers",
+        "type": "Construction Tool",
+        "brand": "Makita",
+        "model": "Model 4",
+        "availability_status": true,
+        "created_at": "2023-09-12T13:20:58.545Z",
+        "updated_at": "2023-09-12T20:54:42.308Z",
+        "outlet_id": "dd40479b-71d7-43ae-8e21-b556029d2b88"
+      },
+      {
+        "id": "1bfea14c-dd1c-4c84-9b9c-6ab6a5423a3a",
+        "name": "Drill",
+        "type": "Automotive Tool",
+        "brand": "Bosch",
+        "model": "Model 5",
+        "availability_status": false,
+        "created_at": "2023-09-13T05:30:27.555Z",
+        "updated_at": "2023-09-12T19:59:50.886Z",
+        "outlet_id": "dd40479b-71d7-43ae-8e21-b556029d2b88"
+      }
+    ],
+    "rental": [
+      {
+        "id": "1c134f13-1c2d-4ff6-bf62-6f389d149b9d",
+        "rental_start_date": "2023-09-13T02:47:16.356Z",
+        "rental_end_date": "2023-09-13T05:02:46.704Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-12T13:41:47.454Z",
+        "updated_at": "2023-09-12T23:25:48.434Z",
+        "tool_id": "52e1f21f-700d-4515-a223-0b476c8def4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9a1b6f9-c396-4a7a-872b-23bb43594903",
+        "rental_start_date": "2023-09-13T07:51:00.376Z",
+        "rental_end_date": "2023-09-12T23:58:37.663Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-13T07:06:45.685Z",
+        "updated_at": "2023-09-12T13:14:56.167Z",
+        "tool_id": "1bfea14c-dd1c-4c84-9b9c-6ab6a5423a3a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f7fce9e-50ac-4827-b087-7c994e467a79",
+        "rental_start_date": "2023-09-12T14:46:09.285Z",
+        "rental_end_date": "2023-09-13T06:47:23.009Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T15:32:38.793Z",
+        "updated_at": "2023-09-13T04:22:29.399Z",
+        "tool_id": "52e1f21f-700d-4515-a223-0b476c8def4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da26a949-b1d3-41f8-a146-8bcb97bc0cf0",
+        "rental_start_date": "2023-09-13T00:00:13.229Z",
+        "rental_end_date": "2023-09-12T11:58:42.152Z",
+        "rental_status": "Out of Service",
+        "created_at": "2023-09-13T05:51:43.934Z",
+        "updated_at": "2023-09-12T13:14:02.189Z",
+        "tool_id": "52e1f21f-700d-4515-a223-0b476c8def4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b76961a5-c830-4b1c-a8e3-6d8e4407e216",
+        "rental_start_date": "2023-09-13T09:31:43.623Z",
+        "rental_end_date": "2023-09-13T06:26:32.104Z",
+        "rental_status": "Maintenance",
+        "created_at": "2023-09-12T23:41:13.677Z",
+        "updated_at": "2023-09-12T20:19:54.830Z",
+        "tool_id": "4f11a706-111e-47a7-a1af-b3f67b4f25e1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "58c77d6a-0a8b-4b26-bd8d-6cff4380de83",
+        "email": "Elaina_Balistreri@yahoo.com",
+        "firstName": "Lurline",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86802042",
+        "tenantId": null
+      },
+      {
+        "reference": "b3499d14-2212-479d-9c80-6425fd0fd9c8",
+        "email": "Samanta.Walker@gmail.com",
+        "firstName": "Scotty",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/545.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a123e96-018d-4f2b-b48d-61f415d4f2c0",
+        "email": "Percy92@gmail.com",
+        "firstName": "Heidi",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8913435",
+        "tenantId": null
+      },
+      {
+        "reference": "04a94a13-80c3-4c97-90fa-3c622bdce730",
+        "email": "Mark_Kilback@hotmail.com",
+        "firstName": "Lila",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84299674",
+        "tenantId": null
+      },
+      {
+        "reference": "d96947f3-94d7-460e-ae4f-e765e19ab871",
+        "email": "Carey_Kuphal24@yahoo.com",
+        "firstName": "Kristina",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89272467",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "outlet": [
+      {
+        "id": "bb237786-e983-40f2-a355-293f1bc5c6f9",
+        "name": "Outlet 1",
+        "location": "Downtown",
+        "opening_hours": "9:00 AM",
+        "closing_hours": "6:00 PM",
+        "day_of_operation": "Monday",
+        "created_at": "2023-09-12T15:33:31.095Z",
+        "updated_at": "2023-09-12T17:34:20.483Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "43cf980e-1671-458c-8c13-d2abd5dc02c6",
+        "name": "Outlet 2",
+        "location": "Shopping Mall",
+        "opening_hours": "8:30 AM",
+        "closing_hours": "7:30 PM",
+        "day_of_operation": "Tuesday",
+        "created_at": "2023-09-13T07:30:05.375Z",
+        "updated_at": "2023-09-12T11:27:33.860Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "aabfd078-2fb8-4d9f-95a6-84c685f9497d",
+        "name": "Outlet 3",
+        "location": "Business District",
+        "opening_hours": "10:00 AM",
+        "closing_hours": "5:30 PM",
+        "day_of_operation": "Wednesday",
+        "created_at": "2023-09-13T04:31:05.310Z",
+        "updated_at": "2023-09-13T00:25:27.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5871a0db-871b-4ad9-bbda-1d208eda27ad",
+        "name": "Outlet 4",
+        "location": "Residential Area",
+        "opening_hours": "7:30 AM",
+        "closing_hours": "8:00 PM",
+        "day_of_operation": "Thursday",
+        "created_at": "2023-09-13T03:27:33.772Z",
+        "updated_at": "2023-09-13T00:47:25.262Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "420f9b82-3d43-4596-ad46-aa7ee225355b",
+        "name": "Outlet 5",
+        "location": "Tourist Attraction",
+        "opening_hours": "9:30 AM",
+        "closing_hours": "6:30 PM",
+        "day_of_operation": "Friday",
+        "created_at": "2023-09-12T17:46:08.166Z",
+        "updated_at": "2023-09-12T22:29:20.609Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "tool": [
+      {
+        "id": "37e691eb-0b46-4c95-ab83-2734717d32b8",
+        "name": "Hammer",
+        "type": "Hand Tool",
+        "brand": "Stanley",
+        "model": "12345",
+        "availability_status": false,
+        "created_at": "2023-09-13T05:31:41.698Z",
+        "updated_at": "2023-09-12T12:58:53.460Z",
+        "outlet_id": "420f9b82-3d43-4596-ad46-aa7ee225355b"
+      },
+      {
+        "id": "8448759e-76b1-4401-8146-61b6a057243d",
+        "name": "Screwdriver",
+        "type": "Power Tool",
+        "brand": "DeWalt",
+        "model": "67890",
+        "availability_status": true,
+        "created_at": "2023-09-12T16:37:11.646Z",
+        "updated_at": "2023-09-13T09:47:50.926Z",
+        "outlet_id": "43cf980e-1671-458c-8c13-d2abd5dc02c6"
+      },
+      {
+        "id": "4bab2deb-d9f2-431c-8929-1fb6337e7da0",
+        "name": "Wrench",
+        "type": "Garden Tool",
+        "brand": "Craftsman",
+        "model": "ABCDE",
+        "availability_status": false,
+        "created_at": "2023-09-12T20:28:03.976Z",
+        "updated_at": "2023-09-12T14:24:37.080Z",
+        "outlet_id": "420f9b82-3d43-4596-ad46-aa7ee225355b"
+      },
+      {
+        "id": "a58ac127-cfbd-4471-9a51-29be5aada24c",
+        "name": "Pliers",
+        "type": "Measuring Tool",
+        "brand": "Makita",
+        "model": "FGHIJ",
+        "availability_status": false,
+        "created_at": "2023-09-12T19:09:48.777Z",
+        "updated_at": "2023-09-13T08:33:55.811Z",
+        "outlet_id": "aabfd078-2fb8-4d9f-95a6-84c685f9497d"
+      },
+      {
+        "id": "18730bc6-899b-42cc-b304-69a7eb8fd49d",
+        "name": "Drill",
+        "type": "Cutting Tool",
+        "brand": "Bosch",
+        "model": "KLMNO",
+        "availability_status": true,
+        "created_at": "2023-09-12T11:26:00.139Z",
+        "updated_at": "2023-09-12T18:12:21.786Z",
+        "outlet_id": "43cf980e-1671-458c-8c13-d2abd5dc02c6"
+      }
+    ],
+    "rental": [
+      {
+        "id": "d37df3d7-58fa-43aa-8964-a5d92bb21ec5",
+        "rental_start_date": "2023-09-12T18:32:00.435Z",
+        "rental_end_date": "2023-09-13T08:07:01.819Z",
+        "rental_status": "Available",
+        "created_at": "2023-09-13T01:25:12.397Z",
+        "updated_at": "2023-09-12T14:34:06.767Z",
+        "tool_id": "4bab2deb-d9f2-431c-8929-1fb6337e7da0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c3d8103-75c8-4e2d-8798-d3323a85f0ca",
+        "rental_start_date": "2023-09-12T22:29:27.143Z",
+        "rental_end_date": "2023-09-13T02:27:23.757Z",
+        "rental_status": "Rented",
+        "created_at": "2023-09-13T05:06:01.468Z",
+        "updated_at": "2023-09-13T02:44:48.681Z",
+        "tool_id": "4bab2deb-d9f2-431c-8929-1fb6337e7da0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aff5c59-e3b6-4eeb-8645-0dc5fe422087",
+        "rental_start_date": "2023-09-13T00:47:52.839Z",
+        "rental_end_date": "2023-09-12T22:48:01.672Z",
+        "rental_status": "Reserved",
+        "created_at": "2023-09-12T13:40:51.883Z",
+        "updated_at": "2023-09-13T02:24:32.769Z",
+        "tool_id": "18730bc6-899b-42cc-b304-69a7eb8fd49d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6329e7c-426e-451d-8f3b-421f4ea31735",
+        "rental_start_date": "2023-09-12T19:24:23.619Z",
+        "rental_end_date": "2023-09-12T22:16:13.703Z",
+        "rental_status": "Out of Service",
+        "created_at": "2023-09-12T17:47:29.025Z",
+        "updated_at": "2023-09-13T10:21:44.841Z",
+        "tool_id": "4bab2deb-d9f2-431c-8929-1fb6337e7da0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a53d61d7-f1b2-452d-ac35-1f6f0e99023d",
+        "rental_start_date": "2023-09-12T15:24:34.518Z",
+        "rental_end_date": "2023-09-12T14:15:05.676Z",
+        "rental_status": "Returned",
+        "created_at": "2023-09-12T23:23:54.086Z",
+        "updated_at": "2023-09-12T11:16:01.289Z",
+        "tool_id": "18730bc6-899b-42cc-b304-69a7eb8fd49d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b09d1a03-7f11-4529-b3d5-379f23a9d840",
+        "email": "Dante.Cronin63@hotmail.com",
+        "firstName": "Keeley",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "056357f5-0911-4393-b439-cfaa0cfd5462",
+        "email": "Mallory18@hotmail.com",
+        "firstName": "Lonnie",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70867902",
+        "tenantId": null
+      },
+      {
+        "reference": "de31650b-7608-46aa-a55a-1f05d8f65b7c",
+        "email": "Finn83@gmail.com",
+        "firstName": "Kolby",
+        "lastName": "O'Connell-Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/880.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7c3eada3-0968-430b-97b4-a5df221741d8",
+        "email": "Celestine75@gmail.com",
+        "firstName": "Shemar",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9999390",
+        "tenantId": null
+      },
+      {
+        "reference": "66f9f49d-3199-496a-b74d-38cbd44ed544",
+        "email": "Hellen_Zieme@gmail.com",
+        "firstName": "Devyn",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15413519",
+        "tenantId": null
+      }
+    ]
+  }
+]
